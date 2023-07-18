@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    padding: 24px 14px;
+    flex: 1;
+}
+
+.color-get > button{
+    border-radius: 4px;
+    background: #3D4B60;
+    color: white;
+    padding: 14px 11px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+
+}
+
+.color-dropdown > select{
+    padding: 13px 11px; 
+    margin: 0px 14px;
+    background-color: #1F2937;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+
+}
+
+.color-picker > input{
+    height: 47px;
+    width: 61px;
+}
+
+main{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.color-0{
+    background-color: red;
+    height: 70vh;
+    width: 50px;
+    flex: 1;
+} 
+
+.color-1{
+    background-color: green;
+    height: 70vh;
+    width: 50px;
+    flex: 1;
+} 
+.color-2{
+    background-color: blue;
+    height: 70vh;
+    width: 50px;
+       flex: 1;
+} 
+
+.color-3{
+    background-color: yellow;
+    height: 70vh;
+    width: 50px;
+    flex: 1;
+} 
+.color-4{
+    background-color:black;
+    height: 70vh;
+    width: 50px;
+    flex: 1;
+} 
+
+
+.value{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.value > p {
+    margin: 0px;
+    padding: 0px;
+}

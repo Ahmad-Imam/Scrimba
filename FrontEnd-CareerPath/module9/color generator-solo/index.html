@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="color-picker">
+                <input id="colorpicker" type="color">
+            </div>
+            
+            <div class="color-dropdown">
+                <!-- <label for="cars">Choose a car:</label> -->
+                <select name="cars" id="cars">
+                    monochrome monochrome-dark monochrome-light analogic complement analogic-complement triad quad
+                    <option value="monochrome">monochrome</option>
+                    <option value="monochrome-dark">monochrome-dark</option>
+                    <option value="monochrome-light">monochrome-light</option>
+                    <option value="analogic">analogic</option>
+                    <option value="complement">complement</option>
+                    <option value="analogic-complement">analogic-complement</option>
+                    <option value="triad">triad</option>
+                    <option value="quad">quad</option>
+                </select>
+            </div>
+            
+            <div class="color-get">
+                <button>Get color scheme</button>
+            </div>
+            
+        </header>
+        
+        <main>
+            <div id="color" class="color">
+                
+                <div class="color-0"></div>
+                <div class="color-1"></div>
+                <div class="color-2"></div>
+                <div class="color-3"></div>
+                <div class="color-4"></div>
+                
+            </div>
+                
+            <div id="value" class="value">
+                <p class="value-1">#ff0000</p>
+                <p class="value-2">#006c00</p>
+                <p class="value-3">#0000ff</p>
+                <p class="value-4">#ffa500</p>
+                <p class="value-5">#000000</p>
+            </div>
+            
+        </main>
+                <script src="index.js"></script>
+    </body>
+</html>
