@@ -13,7 +13,6 @@ export default function App (){
 , id: 9
 }])
     
-    
     React.useEffect(()=>{
             // console.log("ok")
             fetch("https://opentdb.com/api_category.php")
@@ -25,15 +24,8 @@ export default function App (){
     },[])
     
     
-    function gameStart(event){
-        // setStartGame(true);
-       
+    function gameStart(event){ 
         event.preventDefault()
-        //  console.log(event.target.quantity.value)
-        // console.log(startGame)
-        // console.log(selectedCat)
-        // console.log(selectedCat[0].id)
-        // console.log(questionNum)
         setApiUrl(`https://opentdb.com/api.php?amount=${questionNum}&category=${selectedCat[0].id}&type=multiple`)
         setStartGame(true)
     }
@@ -43,8 +35,8 @@ export default function App (){
         setQuestionNum(1)
         setSelectedCat([{option: "General Knowledge", id: 9}])
         setStartGame(false)
-
     }
+
     function setCategory(data){
         const cat = catAr.filter(cat=> cat.option == data)
         setSelectedCat(cat)      
@@ -66,15 +58,11 @@ export default function App (){
 
     return (
         <main>
-            
                 {
                     startGame?
                     <Quiz apiUrl = {apiUrl} selectedCat = {selectedCat} goHome = {goHome}  /> :
                     <Menu gameStart = {gameStart} catAr = {catAr} setCategory = {setCategory} setQNum ={setQNum} />
                 }
-                
-            
-            
         </main>
     )
 }
