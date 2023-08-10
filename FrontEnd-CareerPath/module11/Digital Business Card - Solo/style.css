@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    color: white;
+}
+
+.app{
+    background: #23252C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 116px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+    background: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-img{
+    height: 317px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-title{
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    padding-top: 21px;
+}
+
+.info-post{
+    color: #F3BF99;
+    font-family: Inter;
+    font-size: 12.8px;
+    padding:7px 0px;
+}
+
+.info-link{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 10.24px;
+    line-height: 150%; 
+    padding-bottom: 15px;
+}
+
+.info-btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px; 
+    margin-bottom: 15px;
+}
+
+.btn-email{
+    width: 115px;
+    padding: 9px 13px 9px 11px; 
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn-ln{
+    width: 115px;
+    color: white;
+    padding: 9px 13px 9px 11px; 
+    border-radius: 6px;
+    border: none;
+    background: #5093E2; 
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* About */
+.about{
+    background: #1A1B21;
+    padding: 15px 35px;
+    width: 317px; 
+}
+.about-title{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 150%;
+}
+.about-desc{
+    color: #DCDCDC;
+    font-family: Inter;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+/* interest */
+
+.interest{
+    background: #1A1B21;
+    padding: 15px 35px;
+    width: 317px; 
+}
+
+.interest-title{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 150%;
+}
+.interest-desc{
+    color: #DCDCDC;
+    font-family: Inter;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+/* footer */
+.footer{
+    background: #1A1B21;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    padding-top: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619; 
+    height: 64px; 
+    align-items: center;
+    width: 317px; 
+}
+
+.btn{
+    background: #918E9B;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    width: 25px;
+}
