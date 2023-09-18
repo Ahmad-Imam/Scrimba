@@ -32,7 +32,7 @@ export default function QuizQ ({question, optionArray,correctAnsIndex, checkGame
                     onClick= {()=>{
                              !gameOver && handleClick(option)
                             }
-                        } className = "quiz-q-option">
+                        } className = "quiz-q-option"> 
                     
                     {decode(option)}   
                     
