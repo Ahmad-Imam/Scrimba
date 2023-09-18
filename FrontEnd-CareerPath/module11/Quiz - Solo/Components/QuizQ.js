@@ -29,7 +29,10 @@ export default function QuizQ ({question, optionArray,correctAnsIndex, checkGame
                                                                       :"white" 
                     }} 
                     key = {option}
-                    onClick= {()=>handleClick(option)} className = "quiz-q-option"> 
+                    onClick= {()=>{
+                             !gameOver && handleClick(option)
+                            }
+                        } className = "quiz-q-option">
                     
                     {decode(option)}   
                     
