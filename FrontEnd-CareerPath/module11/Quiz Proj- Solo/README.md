@@ -6,6 +6,7 @@ Quick start:
 $ npm install
 $ npm start
 ````
+Live application link: https://quiz-react-solo.netlify.app/
 
 Application Description: 
 A simple quiz application that uses Open Trivia Database API to fetch quizzes. You can choose various categories and up to 50 questions. There is a surprise if you win the round. The application was developed as part of the Scrimba Frontend Career path where only the project idea and sample [Figma UI](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?type=design&node-id=0-1&mode=design) were given. 
