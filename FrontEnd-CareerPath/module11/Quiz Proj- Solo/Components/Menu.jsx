@@ -9,7 +9,7 @@ export default function Menu ({gameStart,catAr, setCategory ,setQNum}){
     return (
        
         <section className = "menu-section">
-            <h1 className = "menu-title" >Quiz Application</h1>
+            <h1 className = "menu-title" >Quizzy</h1>
             <p className = "menu-desc">Choose Quiz Category and Number of question. The application uses Open Trivia Database API</p>
             <form>
                 <label htmlFor="categories-dropdown" id="cat-drop-label">Select Quiz Category: </label>
